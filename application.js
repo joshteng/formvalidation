@@ -46,7 +46,7 @@ $(document).ready(function() {
     if(errors.length > 0) {
       e.preventDefault();
       for (e in errors) {
-        $("#errors").show().append("<li>" + errors[e] + "</li>");
+        $("#errors").append("<li>" + errors[e] + "</li>");
       }
     }
     else {
